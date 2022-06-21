@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> Slipknot discography </title>
+
+	<link rel="stylesheet" type="text/css" href="firstHtmlProjectStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<base target="_blank">
+
+	<div id="headStyle">
+		<h1>Slipknot discography</h1>
+	</div>
+	
+	<div>
+		<a href="https://en.wikipedia.org/wiki/Slipknot_(album)"><img src="https://upload.wikimedia.org/wikipedia/en/4/44/Slipknot_-_Slipknot2.jpg"/></a>
+		<a href="https://en.wikipedia.org/wiki/Iowa_(album)"><img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Slipknot_Iowa.jpg"/></a>
+		<a href="https://en.wikipedia.org/wiki/Vol._3:_(The_Subliminal_Verses)"><img src="https://upload.wikimedia.org/wikipedia/en/e/e9/Slipknot_-_Vol._3-_%28The_Subliminal_Verses%29.jpg"/></a>
+		<a href="https://en.wikipedia.org/wiki/All_Hope_Is_Gone"><img src="https://upload.wikimedia.org/wikipedia/en/a/a9/All_Hope_is_Gone_%28original%29.jpg"/></a>
+		<a href="https://en.wikipedia.org/wiki/.5:_The_Gray_Chapter"><img src="https://upload.wikimedia.org/wikipedia/en/3/36/5_The_Gray_Chapter_Artwork.jpg"/></a>
+		<a href="https://en.wikipedia.org/wiki/We_Are_Not_Your_Kind"><img src="https://upload.wikimedia.org/wikipedia/en/1/18/Slipknot_-_We_Are_Not_Your_Kind.png"/></a>
+	</div>
+
+	<div id="current_date_time_block"></div>
+
+		<script type="text/javascript">
+
+		    function zero_first_format(value)
+		    {
+		        if (value < 10)
+		        {
+		            value='0'+value;
+		        }
+		        return value;
+		    }
+
+		    function date_time()
+		    {
+		        var current_datetime = new Date();
+		        var day = zero_first_format(current_datetime.getDate());
+		        var month = zero_first_format(current_datetime.getMonth()+1);
+		        var year = current_datetime.getFullYear();
+
+		        return month+"."+day+"."+year;
+		    }
+
+		    document.getElementById('current_date_time_block').innerHTML = date_time();
+		</script>
+
+	<p id="firstP">
+		The American nu metal band Slipknot has released six studio albums, two live albums, one compilation album, one demo album, twenty-six singles, five video albums and twenty-seven music videos. They released We Are Not Your Kind on August 9, 2019. Formed in Des Moines, Iowa in 1995, Slipknot originally featured vocalist and percussionist Anders Colsefni, guitarists Donnie Steele and Josh "Gnar" Brainard, bassist Paul Gray, drummer Joey Jordison, and percussionist and backing vocalist Shawn "Clown" Crahan. The original lineup released its first demo Mate. Feed. Kill. Repeat. in 1996, before undergoing a number of lineup changes over the next few years. </p>
+
+<p>Finalising its lineup as a nine-piece consisting of Corey Taylor (vocals), Mick Thomson, Jim Root (both guitars), Paul Gray (bass), Joey Jordison (drums), Shawn "Clown" Crahan, Chris Fehn (both percussion), Sid Wilson (turntables) and Craig Jones (samples), Slipknot signed with Roadrunner Records and released its self-titled debut album in June 1999. Slipknot reached number 51 on the US Billboard 200, and has since been certified double platinum by the Recording Industry Association of America (RIAA). The band followed this up in 2001 with Iowa, which reached number 3 on the Billboard 200 and topped the UK Albums Chart. Slipknot also released its first two videos during this period – Welcome to Our Neighborhood, a collection of music videos and live footage, in 1999, and Disasterpieces, a live concert recorded in London, in 2002. </p>
+
+<p>After a short hiatus, Slipknot returned in 2004 with its third studio album Vol. 3: (The Subliminal Verses), which reached number 2 on the Billboard 200. The album was supported by a successful lead single in "Duality", which reached the top 10 of both the US Billboard Alternative Songs and Mainstream Rock charts. Later singles "Vermilion" and "Before I Forget" also registered on both charts. The band's first live album, 9.0: Live, followed the next year and reached the top 20 of the Billboard 200. Third video album Voliminal: Inside the Nine was released in December 2006. 2008's All Hope Is Gone, Slipknot's fourth studio album, was the band's first to top the Billboard 200, as well as several album charts in other regions. "Psychosocial", "Dead Memories" and "Snuff" all reached the Billboard Alternative Songs top 20.</p>
+
+<p>On May 24, 2010, founding member Paul Gray died of an "accidental overdose of morphine and fentanyl" and in September 2010 the band dedicated its fourth video album (sic)nesses to the deceased bassist, which documented their performance at Download Festival in 2009. The release topped the Music Video charts in the US and the UK. A compilation album, Antennas to Hell, followed in 2012. After returning to touring in 2011 with former guitarist Donnie Steele on bass, Slipknot also parted ways with Joey Jordison in 2013 in controversial circumstances. The group resurfaced in 2014 with Alessandro Venturella on bass and Jay Weinberg on drums, releasing the Gray-dedicated .5: The Gray Chapter in October that year, which followed All Hope Is Gone in topping the Billboard 200.</p>
+
+<p>As of March 2019, Slipknot has sold 30 million units of records worldwide.</p>
+
+</body>
+</html>
